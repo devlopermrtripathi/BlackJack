@@ -1,0 +1,95 @@
+.container-1,.container-2,.container-4,.container-5{
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.flex-container-1 , .flex-container-3{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.flex-container-1 div{
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+
+.flex-container-2{
+    /* border: 1px solid black; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex-container-3 img{
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(68, 68, 68, 0.6);
+}
+
+.flex-container-rps{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+.flex-container-rps img:hover{
+    box-shadow: 2px 9px 24px 12px rgba(78,96,148,1);
+}
+
+#black-jack-dealer-table{
+    display: flex;
+    border: 1px solid black;
+}
+
+#black-jack-you,#black-jack-dealer{
+    
+    width: 50%;
+    min-height: 300px;
+    border: 1px solid black;
+    margin: 5px;
+    background-color: #0F310F;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
+#you-in-table{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+#you-in-table img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+#dealer-in-table img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+
+#black-jack-button{
+    background-color: #0F310F;
+}
+
+#black-jack-score-board {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }

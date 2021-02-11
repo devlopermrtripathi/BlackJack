@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/challenge.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container-5">
+        <h2>Challenge 5:BlackJack</h2>
+        <h4 id="bj-play">Lets Play</h4>
+        <div id="black-jack-dealer-table">
+            <div id="black-jack-you">
+                <div>
+                    <span id="you-span">You:</span>
+                    <span id="bj-you-score">0</span>
+                </div>
+                <div id="you-in-table">
+
+                </div>
+            </div>
+            <div id="black-jack-dealer">
+                <div>
+                    <span id="dealer-span">Dealer :</span>
+                    <span id="bj-dealer-score">0</span>
+                </div>
+                <div id="dealer-in-table">
+
+                </div>
+            </div>
+        </div>
+        <div id="black-jack-button">
+            <div>
+                <button class="btn btn-primary" id="btn-hit">Hit</button>
+                <button class="btn btn-warning" id="btn-stand">Stand</button>
+                <button class="btn btn-danger" id="btn-deal">Deal</button>
+            </div>
+        </div>
+        <div id="black-jack-score-board">
+            <div>
+                <table>
+                    <tr>
+                        <th>Win</th>
+                        <th>Losses</th>
+                        <th>Draw</th>
+                    </tr>
+                    <tr>
+                        <td id ="win">0</td>
+                        <td id ="loss">0</td>
+                        <td id ="draw">0</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
